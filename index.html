@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="floating_navbar">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -22,9 +22,17 @@
     </nav>
     <p class="long_underline"></p>
 
-    <p><img class="big_ceramic_image" src=images/dccLogo.png alt="devCodeCamp logo"></p>
-    <br>
-    <br>
+    <p class="flex_container_for_home_screen black_background">
+        <div class="home_screen_image_box">
+            <img class="big_ceramic_image" src=images/dccLogo.png alt="devCodeCamp logo">
+        </div>
+        <div class="text_box_for_home_screen">
+            CERAMICS CRAFTED BY HAND...
+        </div>
+        <div class="text_box_for_home_screen">
+            ... FROM THE GROUND UP
+        </div>
+    </p>
     <br>
     <br>
     <br>
@@ -104,7 +112,7 @@
                 ADD TO CART
             </div>
         </div>
-        
+
         <div class="flex_container_product">
             <div><img class="small_ceramic_image" src=images/dccLogo.png alt="devCodeCamp logo"></div>
             <div class="flex_container_for_product_info">
