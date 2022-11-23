@@ -4,45 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>CaraCara</title>
 </head>
 
 <body>
-    <div class="navbar_flex_container floating_navbar">
-        <nav>
+    <header class="navbar-container">
+        <nav class="nav-flex-container">
+            <div class="nav-flex-item nav-flex-item1">
+                <a href="#logo">Home</a>
+            </div>
+            <div class="nav-flex-item nav-flex-item2">
+                <a href="#about-us">About</a>
+            </div>
+            <div class="nav-flex-item nav-flex-item3">
+                <a href="#Our Products">Products</a>
+            </div>
+            <div class="nav-flex-item nav-flex-item4">
+                <a href="#Contact Us">Contact</a>
+            </div>
+        </nav>
+
+        <div class="caralogo-container">
+            <div class="text-box-cara">
+                CARA
+            </div>
+            <div><img class="cara-image" src="UX-HTML-CSS/icons8-pottery-96.png" alt="sadsa"></div>
+            <div class="text-box-cara">
+                CARA
+            </div>
+        </div>
+
+        <div class="searchbar-cart-container">
+            <div class="searchbar-container">
+                <div><img class="search-icon-size" src="UX-HTML-CSS/1200px-Google_Magnifying_Glass.svg.png" alt="search icon"></div>
+            </div>
+            <div class="cart">
+                <a href="#">
+                    CART (0)
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="header-underline"></div>
+
+    <br>
+
+    <div>
+        <div class="earl-pic-container">
+            <div>
+                <img class="earl-pic" src="UX-HTML-CSS/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="earl pic">
+            </div>
+        </div>
+        <div class="gradiant">
+            <div class="text-box1">CERAMICS CRAFTED BY HAND...</div>
+            <div class="text-box2">… FROM THE GROUND UP</div>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="about-us" class="section-name">ABOUT US</div>
+    <div class="section-underline"></div>
+
+    <div class="aboutus-grid">
+        <div class="aboutus-grid-item aboutus-grid-item1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit amet commodo. 
+        </div>
+        <div class="aboutus-grid-item aboutus-grid-item2">
+            2
+        </div>
+        <div class="aboutus-grid-item aboutus-grid-item3">
+            <div><img class="small-aboutus-img" src="UX-HTML-CSS/Vase_Dame_2048x2048.jpg" alt="small-aboutus-img"></div>
+        </div>
+        <div class="aboutus-grid-item aboutus-grid-item4">
+            4
+        </div>
+        <div class="aboutus-grid-item aboutus-grid-item5">
+            5
+        </div>
+    </div>
+
+</body>
+
+<!-- <body>
+    <header class="nav-grid-container">
+        <nav class="grid-item grid-item1">
             <ul>
                 <li><a href="#logo">Home</a></li>
                 <li><a href="#About Us">About</a></li>
                 <li><a href="#Our Products">Products</a></li>
-                <li><a href="#Contact Us">Contact</a></li>            
-                <li><a href="#logo"></a></li>            
-                <li><a href="#logo"></a></li>            
+                <li><a href="#Contact Us">Contact</a></li>                   
             </ul>
+        </nav>
         <div class="flex_container_for_logo">
-            <a href="#logo">
-                <div class="text_box_cara">CARA</div>
-                <div><img class="cara_image" src=images/dccLogo.png alt="devCodeCamp logo"></div>
-                <div class="text_box_cara">CARA</div>
-            </a>
+            <div class="text_box_cara">CARA</div>
+            <div><img class="cara_image" src="UX-HTML-CSS/icons8-pottery-96.png" alt="sadsa"></div>
+            <div class="text_box_cara">CARA</div>
         </div>
         <div class = "flex_container_for_searchbar_and_cart">
             <div class="flex_container_for_searchbar">
                 <div>
-                    <img src="images/dccLogo.png" alt="devCodeCamp logo">
+                    <img src="" alt="Cara Logo">
                 </div>
             </div>
             <div class="text_box_for_cart">
-                CART (0)
+                <a href="logo">
+                    CART (0)
+                </a>
             </div>
         </div>
-        </nav>
-        <p class="long_underline"></p>
-    </div>
+        <img class="grid-item grid-item2" src="UX-HTML-CSS/icons8-pottery-96.png" alt="logo">
+        <a class="grid-item grid-item3" class="cta" href="#"><button>button</button></a>
+        
+    </header>
 
-    <p class="flex_container_for_home_screen black_background">
+
+        <p class="long_underline"></p>
+
+    <div class="flex_container_for_home_screen black_background">
         <div id="logo" class="home_screen_image_box">
-            <img class="big_ceramic_image" src=images/dccLogo.png alt="devCodeCamp logo">
+            <img class="big_ceramic_image" src="UX/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="devCodeCamp logo">
         </div>
         <div class="text_box_for_home_screen">
             CERAMICS CRAFTED BY HAND...
@@ -50,13 +133,13 @@
         <div class="text_box_for_home_screen">
             ... FROM THE GROUND UP
         </div>
-    </p>
+    </div>
     <br>
     <br>
     <br>
     <br>
     
-    <p class="flex_container_for_about_us">
+    <div class="flex_container_for_about_us">
         <div class="Subsection Title">
             <div id="About Us">ABOUT US</div>
             <div class="short_underline"></div>
@@ -76,12 +159,12 @@
         <div class="about_us_tall_picture">
             <div><img class="tall_ceramic_image" src=images/dccLogo.png alt="devCodeCamp logo"></div>
         </div>
-    </p>
+    </div>
 
     <br>
     <br>
 
-    <p class="flex_container_for_our_products">
+    <div class="flex_container_for_our_products">
         <div class="Subsection Title">
             <div id="Our Products">OUR PRODUCTS</div>
             <div class="short_underline"></div>
@@ -319,7 +402,7 @@
                 ADD TO CART
             </div>
         </div>
-    </p>
+    </div>
     
     <div class="flex_container_for_contact_us">
         <div class="rectangle"></div>
@@ -384,5 +467,5 @@
         </div>
     </div>
 
-</body>
+</body> -->
 </html>
